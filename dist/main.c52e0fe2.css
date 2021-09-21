@@ -15,7 +15,10 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  padding:1.5rem;
 }
+
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -63,6 +66,12 @@ img,
 svg,
 video {
   vertical-align: middle;
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
 }
 
 /*
