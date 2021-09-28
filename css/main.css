@@ -24,12 +24,11 @@ main {
   margin: 0 auto;
   display:grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows:min-content;
   grid-gap:2rem;
 }
 
-/*
+
 .left-sidebar {
   grid-column: 1 / 2;
 }
@@ -37,7 +36,7 @@ main {
 .main-content {
   grid-column: 2 / 3;
 }
-*/
+
 
 
 /*
