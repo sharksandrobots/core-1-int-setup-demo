@@ -11,8 +11,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300&family=Source+Sans+Pro&display=swap');
-
+   @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,400&family=Source+Sans+Pro&display=swap');
 
 html {
   color: #222;
@@ -63,7 +62,7 @@ main {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   font-weight:700;
 }
 
@@ -106,9 +105,9 @@ p{
 
 .pull-quote {
   font-size: 2.25rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   font-style: italic;
-  font-weight:300;  
+  font-weight:400;  
   line-height: 1.5;
   padding:2rem;
 }
